@@ -11,22 +11,35 @@
 <link rel="stylesheet" href="login-form.css">
 
 <body>
-    <div id="container">
-        <login-form>
-            <div class="heading">
-                <h1 style="font-family: Arial, Helvetica, sans-serif;">LOGIN</h1>
+    <section>
+        <div class="contentBox">
+            <div class="formBox">
+                <h2>Welcome to our website.</h2>
+                <p>Please login for experience this platform</p>
+              <form action="#">
+                <div class="inputBox">
+                    <span>Username</span>
+                    <input type="text" name="">
+                </div>
+                <div class="inputBox">
+                    <span>Password</span>
+                    <input type="password" name="">
+                </div>
+                <div class="remember">
+                    <label for=""><input type="checkbox"> Remember me.</label>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Sign in" name="">
+                </div>
+                <div class="inputBox">
+                    <p>Don't have an account? <a href="#">Sign up</a></p>
+                </div>
+              </form>
             </div>
-            <div id="box">
-                <i class="bi bi-person-fill"></i>
-                <input type="text" alt="Username" placeholder="Username"><br>
-                <input type="password" alt="Password" placeholder="Password">
-            </div>
-            <div>
-                <input type="button" value="login">
-                <span><a href="http://127.0.0.1:5500/login-form/login-form.html">forgot password?</a></span>
-            </div>
-        </login-form>
-    </div>
-
+         </div>
+         <div class="imgBox">
+             <img src="https://www.hicomultifin.com/auth/images/login.png" alt="Image">
+         </div>
+   </section>
 </body>
 </html>
